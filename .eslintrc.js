@@ -6,19 +6,11 @@ module.exports = {
     },
     parserOptions: {
         sourceType: 'module',
-        ecmaVersion: 6
+        ecmaVersion: 2017
     },
     extends: [
         'airbnb-base',
     ],
-    settings: {
-        'import/resolver': {
-            node: {
-                paths: ['src'],
-                extensions: ['.js']
-            }
-        }
-    },
     rules: {
         'padded-blocks': 'off',
         'comma-dangle': 'off',
