@@ -41,6 +41,18 @@ Lint: `npm run lint`
 
 ## Further Details
 
+#### Entry Points for Node and Browser
+
+The build config in `rollup.config.js` produces two bundled entry points:
+ 
+* `index.js` is intended for consumption in node
+* `browser.js` - is intended for consumption in a browser
+
+This ensures that dependencies for node specific modules can be shimmed via [rollup-plugin-node-builtins](https://github.com/calvinmetcalf/rollup-plugin-node-builtins)  
+
+To ensure the correct browser version is loaded when accessed from [unpkg.com](https://unpkg.com), 
+it is published to npm with a `browser` property in `package.json`.    
+
 #### Configuration
 Explanation of project configuration files:
 
