@@ -1,3 +1,5 @@
+/* eslint-disable max-classes-per-file */
+
 import Debug from 'debug';
 import { EXTENSION_POINT_A_ID } from './ExtensionPointA';
 import { EXTENSION_POINT_B_ID } from './ExtensionPointB';
