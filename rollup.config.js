@@ -7,7 +7,7 @@ import resolve from 'rollup-plugin-node-resolve';
 module.exports = [
     {
         input: {
-            index: 'src/index.js'
+            node: 'src/index.js'
         },
         output: {
             dir: 'dist',
