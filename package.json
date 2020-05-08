@@ -59,7 +59,7 @@
         "temp-dir": "2.0.0"
     },
     "dependencies": {
-        "@flowscripter/esm-dynamic-plugins": "1.5.2",
+        "@flowscripter/esm-dynamic-plugins": "1.5.3",
         "debug": "4.1.1"
     }
 }
