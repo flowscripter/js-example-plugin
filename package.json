@@ -43,7 +43,7 @@
         "@commitlint/cli": "11.0.0",
         "@commitlint/config-conventional": "11.0.0",
         "@flowscripter/renovate-config": "1.0.3",
-        "eslint": "7.10.0",
+        "eslint": "7.11.0",
         "eslint-config-airbnb-base": "14.2.0",
         "eslint-plugin-import": "2.22.1",
         "husky": "4.3.0",
@@ -55,7 +55,7 @@
         "rollup-plugin-json": "4.0.0",
         "rollup-plugin-node-builtins": "2.1.2",
         "rollup-plugin-node-resolve": "5.2.0",
-        "semantic-release": "17.1.2",
+        "semantic-release": "17.2.0",
         "temp-dir": "2.0.0"
     },
     "dependencies": {
